@@ -5,7 +5,7 @@
 Author: Dr Jan Schindler (schindlerj@landcareresearch.co.nz)
 
 ## Installation
-
+### Ubuntu with conda
 Install development packages in Ubuntu:<br>
 `sudo apt install g++ cmake libgmp10 libgmp-dev libmpfr6 libmpfrc++-dev libmpfi-dev`
 
@@ -17,6 +17,18 @@ Activate the environment:<br>
 
 Build and install the Python C++ extension:<br>
 `python setup.py install`
+
+### Ubuntu 20
+
+Install development packages in Ubuntu:<br>
+`sudo apt install g++ cmake libgmp10 libgmp-dev libmpfr6 libmpfrc++-dev libmpfi-dev libcgal-dev python3-setuptools python3-dev`
+
+Build: <br>
+`python3 setup.py build`
+
+Install:<br>
+`sudo python3 setup.py install`
+
 
 ## Example
 
